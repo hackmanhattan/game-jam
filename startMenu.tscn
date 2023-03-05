@@ -1,6 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://no16kmon3tca"]
+[gd_scene load_steps=8 format=3 uid="uid://bvjkyxjo0m8yk"]
 
-[ext_resource type="Script" path="res://main.gd" id="1_w3yij"]
+[ext_resource type="Script" path="res://startMenu.gd" id="1_fu6hq"]
 [ext_resource type="Texture2D" uid="uid://txh5cqepdqrs" path="res://art/Curia_Julia.jpeg" id="3_xjkja"]
 [ext_resource type="PackedScene" uid="uid://x3eo7s5plbb5" path="res://hud.tscn" id="5_igqeo"]
 [ext_resource type="FontFile" uid="uid://b162ctvxfvmsa" path="res://fonts/Xolonium-Regular.ttf" id="5_lcpkm"]
@@ -13,7 +13,7 @@ action = &"start_game"
 events = [SubResource("InputEventAction_4ov2i")]
 
 [node name="StartMenu" type="Node"]
-script = ExtResource("1_w3yij")
+script = ExtResource("1_fu6hq")
 
 [node name="HUD" parent="." instance=ExtResource("5_igqeo")]
 
