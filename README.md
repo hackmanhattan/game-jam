@@ -12,3 +12,6 @@ for the game-makers
 
 * JellyCar 
 * dino game  
+
+
+Bio-jelly slams into and absorbs enemy ships, absorbing them and using them to fight--cooldown period where you talk to your inner voices and restructure yourself
